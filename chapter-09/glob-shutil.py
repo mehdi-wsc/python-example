@@ -21,3 +21,6 @@ for path in receipts:
     print(f"moved '{path}' to '{destination}' ")
 
 print("Receipt subtotal: $%.2f" % subtotal)
+
+# we can use "re" for regular expression, better precision than glob
+#  insteaed of %.2f we can use round function 
