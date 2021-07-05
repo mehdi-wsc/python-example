@@ -6,7 +6,7 @@ import sys
 from argparse import ArgumentParser
 
 parser = ArgumentParser(description='get the current weather information for your zipcode')
-parser.add_argument('zip', help="zip/postal code to get weather for ")
+parser.add_argument('--zip', help="zip/postal code to get weather for ")
 parser.add_argument('--country', default="uk", help="country zip belongs to, default is uk ")
 
 args = parser.parse_args()
